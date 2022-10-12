@@ -1,0 +1,26 @@
+.solid_btn {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #03e9f4;
+    border-radius: 0.6em;
+    color: #03e9f4;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 1.2em 2.8em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.solid_btn:hover,
+.solid_btn:focus {
+    color: #fff;
+    outline: 0;
+}
+.solid_btn:hover {
+    box-shadow: 0 0 40px 40px #03e9f4 inset;
+}
+
